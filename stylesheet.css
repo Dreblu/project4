@@ -11,19 +11,35 @@ ul{
 	list-style-type; 44px;
 	padding: 0;
 	overflow: hidden;
-	background-color: black;	
+	background-color: Black;	
 	border: 5px dotted;
-	float: ;
+	float: center;
+	
 }
 p {
 	color: silver;
     font-family: "Verdana";
     font-size: 25px;
 	margin: auto;
-	margin-top:
-	margin-left:
-	margin-right:
-	margin-bottom:
+	margin: 10px 150px 10px 150px
+}
+
+nav {
+    margin-bottom: 50px;
+}
+ 
+nav li {
+    display: inline-block;
+}
+ 
+nav ul {
+    text-align: center;
+}
+ 
+nav.block-element ul {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 
@@ -32,7 +48,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #666;
 }
 
 li {
